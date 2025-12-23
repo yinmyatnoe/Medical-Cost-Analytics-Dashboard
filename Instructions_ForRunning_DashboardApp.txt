@@ -1,0 +1,39 @@
+
+How to Run This Project (Setup Instructions)
+
+1. Download the project folder
+Ensure the folder contains:
+
+Streamlit_InteractiveDashboard_App.py
+medical_insurance_cleaned.csv
+requirements.txt
+
+2. Open the folder in Visual Studio Code (or any IDE).
+
+3. Install required packages using the requirements file.
+
+In the terminal of this project folder, write this command.
+pip install -r requirements.txt
+
+
+4. Run the Streamlit dashboard.
+In the terminal of this project folder, write this command.
+streamlit run Streamlit_InteractiveDashboard_App.py
+
+
+5. Open the dashboard in a browser.
+Streamlit will automatically display a local URL such as:
+
+http://localhost:8501 (Example)
+
+
+6. Interact with the dashboard, apply filters, view charts, and test the predictive model.
+
+Notes
+Python version 3.10+ is recommended.
+Do not rename medical_insurance_cleaned.csv.
+The CSV must remain in the same directory as appv4.py.
+If Streamlit does not launch automatically, manually copy the URL into a browser.
+
+
+
