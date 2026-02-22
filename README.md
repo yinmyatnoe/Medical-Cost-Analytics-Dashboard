@@ -40,6 +40,9 @@ Key Finding: Top 20% of customers drive approximately 80% of total medical spend
 ---
 PART 2: Project Structure
 
+## PART 2: Project Structure
+
+```
 Medical-Cost-Analytics-Dashboard/
 ├── README.md
 ├── SETUP.md
@@ -53,5 +56,6 @@ Medical-Cost-Analytics-Dashboard/
 ├── reports/
 │   └── analysis_results.pdf
 └── .gitignore
+```
 
 
