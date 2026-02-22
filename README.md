@@ -38,9 +38,20 @@ Key Finding: Top 20% of customers drive approximately 80% of total medical spend
 - Key drivers: risk score, smoking, hospitalizations, chronic conditions
 
 ---
+PART 2: Project Structure
+
+Medical-Cost-Analytics-Dashboard/
+├── README.md
+├── SETUP.md
+├── requirements.txt
+├── data/
+│   └── medical_insurance_cleaned.csv
+├── notebooks/
+│   └── analysis.ipynb
+├── src/
+│   └── app.py
+├── reports/
+│   └── analysis_results.pdf
+└── .gitignore
 
 
-Markdown
-## Project Structure
-
-Medical-Cost-Analytics-Dashboard/ ├── README.md # Project documentation ├── SETUP.md # Detailed setup guide ├── requirements.txt # Python dependencies ├── data/ │ └── medical_insurance_cleaned.csv # 100K+ records, 65 features ├── notebooks/ │ └── analysis.ipynb # Full EDA and exploratory analysis ├── src/ │ └── app.py # Streamlit interactive dashboard ├── reports/ │ └── analysis_results.pdf # Statistical findings summary └── .gitignore # Git ignore rules
